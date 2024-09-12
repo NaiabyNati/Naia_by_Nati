@@ -78,6 +78,8 @@ ul li {
 .iconWhatsapp1::before {
     content: url("../assets/whatsapp.svg");
     float: left;
+    padding-top: 15px;
+    padding-bottom: 8px;
 }
 
 .iconWhatsapp2::before {
