@@ -62,7 +62,7 @@ h1 {
     max-width: 300px;
     margin: auto;
     margin-top: 30px;
-    text-transform: uppercase;
+    text-transform: initial;
 }
 
 ul {
