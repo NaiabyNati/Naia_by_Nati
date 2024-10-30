@@ -1,0 +1,79 @@
+/* Estilos gerais para todas as telas */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo para telas pequenas (smartphones, <600px) */
+@media only screen and (max-width: 600px) {
+    #containerHeader, #containerMain {
+        max-width: 100%;
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+    
+    .paragraTopBar {
+        font-size: 14px;
+    }
+
+    ul li {
+        padding: 10px;
+        margin: 5px 0;
+    }
+    
+    .box {
+        margin-top: 10px;
+    }
+}
+
+/* Estilo para telas médias (tablets, 600px-900px) */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    #containerHeader, #containerMain {
+        max-width: 80%;
+        padding: 20px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    .paragraTopBar {
+        font-size: 16px;
+    }
+
+    ul li {
+        padding: 12px;
+        margin: 6px 0;
+    }
+
+    .box {
+        margin-top: 15px;
+    }
+}
+
+/* Estilo para telas grandes (desktops, >900px) */
+@media only screen and (min-width: 900px) {
+    #containerHeader, #containerMain {
+        max-width: 60%;
+        padding: 30px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+    .paragraTopBar {
+        font-size: 18px;
+    }
+
+    ul li {
+        padding: 15px;
+        margin: 10px 0;
+    }
+
+    .box {
+        margin-top: 20px;
+    }
+}
