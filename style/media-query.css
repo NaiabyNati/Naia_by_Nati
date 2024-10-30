@@ -18,8 +18,10 @@ body {
         font-size: 14px;
     }
 
+    
+
     ul li {
-        padding: 10px;
+        padding: 10px; 
         margin: 5px 0;
     }
     

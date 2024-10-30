@@ -80,11 +80,11 @@ ul li {
 .iconWhatsapp3::before {
     content: url("../assets/whatsapp.svg");
     float: left;
-    padding-top: 8px;
+    padding-top: 4px;
 }
 
 .iconWhatsapp1::before {
-    padding-top: 15px;
+    padding-top: 2px;
     padding-bottom: 8px;
 }
 
@@ -108,7 +108,6 @@ ul a {
 .box {
     position: relative;
     overflow: hidden;
-    border-radius: 5px;
     margin-top: 10px;
     background: linear-gradient(135deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
